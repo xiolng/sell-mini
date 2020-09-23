@@ -1,0 +1,76 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "分享"
+		}
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/my/userInfo",
+		"style": {
+			"navigationBarTitleText": "个人信息"
+		}
+	}, {
+		"path": "pages/my/performanceQuery",
+		"style": {
+			"navigationBarTitleText": "业绩查询"
+		}
+	}, {
+		"path": "pages/my/cashRecords",
+		"style": {
+			"navigationBarTitleText": "兑现记录"
+		}
+	}, {
+		"path": "pages/my/ranking",
+		"style": {
+			"navigationBarTitleText": "业绩排名"
+		}
+	}, {
+		"path": "pages/shipmentInfo/shipmentInfo",
+		"style": {
+			"navigationBarTitleText": "出货信息"
+		}
+	}, {
+		"path": "pages/shipmentInfo/shipmentInfoDetail",
+		"style": {
+			"navigationBarTitleText": "出货信息详情"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#e3e3e3",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#00bfbf",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tab/share.png",
+				"selectedIconPath": "static/tab/share-active.png",
+				"text": "分享"
+			}, {
+				"pagePath": "pages/shipmentInfo/shipmentInfo",
+				"iconPath": "static/tab/log.png",
+				"selectedIconPath": "static/tab/log-active.png",
+				"text": "出货信息"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/tab/my.png",
+				"selectedIconPath": "static/tab/my-active.png",
+				"text": "我的"
+			}
+		]
+	}
+}
