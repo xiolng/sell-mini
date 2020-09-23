@@ -1,4 +1,5 @@
-|-- undefined
+```
+|-- sell-mini
     |-- .gitignore
     |-- App.vue
     |-- main.js
@@ -297,3 +298,5 @@
                             |-- my.png
                             |-- share-active.png
                             |-- share.png
+
+```
